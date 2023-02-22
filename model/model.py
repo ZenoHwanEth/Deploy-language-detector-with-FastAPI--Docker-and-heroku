@@ -6,7 +6,7 @@ __version__ = "0.1.0"
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent
 
-with open(f"{BASE_DIR}/model_0.1.0.pkl","rb") as f:
+with open(f"{BASE_DIR}/model.pkl","rb") as f:
     model = pickle.load(f)
 
 classes = [
